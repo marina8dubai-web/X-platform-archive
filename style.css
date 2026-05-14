@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Tailwind Base Styles (Simulated for CodePen) */
+body { 
+  font-family: 'Inter', sans-serif; 
+  background-color: #f8fafc;
+}
+
+.status-badge {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  background-color: #fee2e2;
+  color: #991b1b;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+tr:nth-child(even) { 
+  background-color: #f8fafc; 
+}
+
+/* Hover effects for rows */
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
